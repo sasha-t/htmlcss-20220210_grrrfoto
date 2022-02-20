@@ -1,0 +1,53 @@
+header {
+    background: aquamarine;
+    text-align: center;
+}
+
+h1 {
+    padding: 6px 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 32px;
+    margin: 20px 0 12px;
+}
+
+nav {
+    background: antiquewhite;
+    padding: 12px 0;
+    font-size: 32px;
+}
+
+main {
+    padding: 12px;
+    background: darkseagreen;
+}
+
+article {
+    padding: 12px;
+    background: burlywood;
+}
+
+article + article {
+    margin-top: 12px;
+}
+
+ul,
+ol {
+    margin-left: 40px;
+}
+
+li + li {
+    margin-top: 4px;
+}
+
+footer {
+    background: #7048E8;
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px 0;
+}
